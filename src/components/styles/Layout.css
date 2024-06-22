@@ -1,0 +1,11 @@
+.layout{
+    /* border: 2px solid red; */
+    width: 98.5%;
+    height: 40vh;
+    margin: 5vh 0vh;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+.font{
+    font-family: "Nunito Sans", sans-serif;
+}

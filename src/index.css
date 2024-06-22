@@ -1,0 +1,8 @@
+ .to{
+    text-transform: capitalize;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: "Lexend Deca";
+ }
+ #root{
+   font-family: "Lexend Deca", "sans-serif";
+ }

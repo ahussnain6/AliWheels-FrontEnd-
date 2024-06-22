@@ -1,0 +1,156 @@
+.containr{
+    background-color: peru;
+    color: white;
+    border: 2px solid black;
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.bg-90{
+  background-color: black !important;
+}
+.none{
+  display: none;
+}
+.lo{
+    width: 50vw;
+border: 2px solid black;
+}
+.whole-bg{
+  background-image: url("https://miro.medium.com/v2/resize:fit:1080/1*xsiX1Oha4dPbDIWtQ6GpzA.jpeg");
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  object-fit:contain;
+  clip-path:polygon(100% 0, 100% 88%, 50% 100%, 0 88%, 0% 0%)
+ }
+.lo2{
+    width: 50vw;
+border: 2px solid red;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+} 
+nav{
+  /* border-bottom: 2px solid white; */
+  display: flex;
+  height: 11vh;
+  width: 100%;
+  background: transparent;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+}
+nav .logo{
+  margin-left: -8.9vh;
+  color: #fff;
+  font-size: 2.9vw;
+  font-weight: 700;
+  font-family: "Mukta", sans-serif;
+  /* font-weight: 200; */
+  /* font-style: normal; */
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li{
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  font-family: "Lexend Deca";
+
+  transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover{
+  color: #111;
+  background: #fff;
+}
+nav .menu-btn .i{
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"]{
+  display: none;
+}
+@media (max-width: 100px){
+  nav{
+    padding: 0 40px 0 50px;
+  }
+}
+@media (max-width: 920px) {
+  
+  nav .menu-btn .i{
+    display: block;
+    height: 40px;
+    width: 47px;
+    margin-right: -5.3vw;
+  }
+  #click:checked ~ .menu-btn .i:before{
+    content: "\f00d";
+  }
+  nav .logo{
+    color: #fff;
+    margin-left: -9.9vh;
+    font-weight: 900 !important;
+    font-size: 3.6vw;
+  }
+
+  nav ul{
+    position: fixed;
+    top: 75px;
+    left: -100%;
+    z-index: 10000;
+    background:rgba(0,0,0,0.4);
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  #click:checked ~ ul{
+    left: 0;
+    z-index: 1000;
+  }
+  nav ul li{
+    width: 100%;
+    margin: 40px 0;
+  }
+  nav ul li a{
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-family: "Lexend Deca";
+
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~ ul li a{
+    margin-left: 0px;
+  }
+  nav ul li a.active,
+  nav ul li a:hover{
+    background: none;
+    color: black;
+  }
+}
+.left{
+  z-index: 1000;
+  left: -100% !important;
+}

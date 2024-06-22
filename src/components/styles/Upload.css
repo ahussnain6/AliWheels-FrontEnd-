@@ -1,0 +1,106 @@
+@media screen and (width < 450px){
+    .bg{
+        color: black;
+        width: 100vw;
+        margin-top: 0vh;
+        height: 89vh;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+    }
+    .ki{
+        background-color: black;
+        color: white;
+        padding: 1vh 1vh;
+        width:30vw;
+        border-radius: 2vh;
+        font-size: 2vw;
+          font-family: "Lexend Deca";
+        margin-left: 2vh;
+    }    
+    .in{
+        font-family: "Lexend Deca";
+        border: 2px solid black;
+        border-radius: 2vh;
+        padding: 2vh 1vh;
+        width: 50vw;
+        font-size: 2vw;
+        font-weight: 500;
+        margin-bottom: .5vh;
+     }
+}
+@media screen and (width < 375px){
+    .ki{
+        background-color: black;
+        color: white;
+        padding: 1vh 1vh;
+        font-family: "Lexend Deca";
+        width:30vw;
+        border-radius: 2vh;
+        font-size: 2vw;
+        margin-left: 4vh;
+    }    
+}
+.bg{
+    color: black;
+    width: 100vw;
+    height: 89vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxKRApI91xj69s3ArtQY2IUmrUGINOQ_brFw&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+option{
+    font-size: 2vw;
+    font-weight: 670;
+    font-family: "Lexend Deca";
+}
+.h{
+    text-align: center;
+    margin-bottom: 2vh;
+    font-size: 3.4vw;
+}
+.filename{
+    text-align: end;
+}
+.p2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.select{
+    width: 50vw;
+    background-color: black;
+    color: white;
+    padding: 1vh 1vh;
+    border-radius: 1.4vh;
+}
+.ki{
+    background-color: black;
+    color: white;
+    padding: 1vh 1vh;
+    width:50vw;
+    border-radius: 2vh;
+    font-size: 1.6vw;
+    
+}
+ .in{
+    border: 2px solid black;
+    border-radius: 2vh;
+    /* color: white; */
+    padding: 2vh 1vh;
+    width: 50vw;
+    font-weight: 500;
+    margin-bottom: .5vh;
+ }
+ .font {
+    font-family: "Lexend Deca" !important;
+ }
+ .center{
+    text-align: center !important;
+ }

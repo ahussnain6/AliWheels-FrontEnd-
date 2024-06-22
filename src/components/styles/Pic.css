@@ -1,0 +1,22 @@
+.img-98{
+    margin: 0vh 0vh 5vh;
+    height: 55vh;
+    width: 100%;
+}
+.li-9{
+    text-align: center;
+     margin-top: 8vh;
+    /* color: red; */
+}
+.font{
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.li-9{
+    font-size: 1.5rem;
+}
+@media screen and (width > 800px){
+    .li-9{
+        font-size: 2.4rem;
+    }
+}

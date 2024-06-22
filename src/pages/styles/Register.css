@@ -1,0 +1,98 @@
+main{border: 2px solid black;
+    /* background-color: aqua; */
+    width: 100vw;
+    height: 89vh;
+    display: flex;
+    background-image: url(
+        "https://preview.colorlib.com/theme/bootstrap/login-form-20/images/bg.jpg.webp"
+    );
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    border-radius: 1.5vh;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 59vw;
+    height: 69vh;
+/* border: 2px solid lightgray; */
+}
+.input{
+    border: 2px solid black;
+    width: 50vw;
+    border-radius: 3vh;
+    font-size: 2vw;
+    color: black;
+    font-family: "Lexend Deca";
+    padding: 2vh 6vh;
+    margin: .5vh;
+    background-color: white;
+}
+.btn{
+    width: 50vw;
+    border: 2px solid black;
+    border-radius: 2vh;
+    font-size: 2vw;
+    color: white;
+    padding: 1vh 1vh;
+    margin-top: -3vh;
+    /* margin: .5vh; */
+    background-color: black;
+}
+.btn:hover{
+    background-color:rgba(0,0,0,0.4) ;
+    color: white;
+    font-weight: 800;
+}
+.section .main {
+    font-size: 4vw;
+
+}
+@media screen and (width < 680px){
+    .section{
+        border-radius: 1.5vh;
+        /* background-color: transparent; */
+        background-color: rgba(0,0,0,0.4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 68vw;
+        height: 50vh;
+    /* border: 2px solid lightgray; */
+    }
+    .input{
+        border: 2px solid black;
+        border-radius: 2vh;
+        font-size: 2.5vw;
+        color: black;
+        padding: 1vh 1vh;
+        font-family: "Lexend Deca";
+
+        margin: .5vh;
+        background-color: white;
+    }
+    .btn{
+        border: 2px solid black;
+        border-radius: 2vh;
+        font-size: 2.5vw;
+        color: white;
+        padding: 1vh 9vh;
+        margin-top: -3.5vh;
+        /* margin: .5vh; */
+        background-color: black;
+        padding:2vh 14vw !important;
+    }
+}
+.font{
+    font-family: "Lexend Deca";
+}
+/* style={{ marginBottom:"1vh",fontSize:"3.8vw" }} */
+.li{
+    margin-bottom:1vh;
+    font-size:3.8vw;
+}

@@ -1,0 +1,120 @@
+@media screen and (width <= 630px){
+    .page{
+        width: 100vw;
+        height: 96vh;
+    }
+    .side{
+        /* border: 3px solid orange; */
+        margin: 2vh 0vh;
+        width: 100vw;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img1{
+        border: 2px solid black;
+        border-radius: 1.5vh;
+        width: 95.5%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        height: 79%;}
+    .side1{
+        /* border: 2px solid red; */
+        padding: 0vh 1vh;
+        width: 100vw;
+        height: 45vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bn{
+      border-radius: 1.5vh;
+        background-color: black;
+        color: white;
+        padding: 1vh 6vh;
+        font-size: 2.3vh;
+        font-weight: 670;
+        margin-top: 1vh;
+        text-align: center;
+    }
+    .bn:hover{
+        font-weight:700;
+        background-color: darkgray;
+        color: black;
+    }
+    .side2 h1{
+        font-family: "Lexend Deca"    ;
+
+        font-size: 4.3vw;
+    }
+    .side2{
+    width: 100vw;
+    font-family: "Lexend Deca"    ;
+
+    height: 45vh;
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 1vh 3vh;
+    }
+}
+
+@media screen and (width > 630px){
+    .page{
+        width: 100vw;
+        height: 86vh;
+    }
+    .side{
+        margin: 2vh 0vh;
+        width: 100vw;
+        height: 84vh;
+        gap:1.5vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .img1{
+        border: 2px solid black;
+        border-radius: 1.5vh;
+        width:99%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        height: 99%;}
+    .side1{
+        width: 45vw;
+        height: 75vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bn{
+      border-radius: 2vh;
+        background-color: black;
+        color: white;
+        padding: 1vh 6vh;
+        font-size: 3vh;
+        margin-top: 1vh;
+        text-align: center;
+    }
+    .side2 h1{
+        font-size: 2.6vw;
+        font-family: "Lexend Deca"    ;
+
+    }
+    .side2{
+    width: 49vw;
+    height: 75vh;
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-family: "Lexend Deca" ;
+    font-style: normal;
+    padding: -.5vh 3.3vh;
+    }    
+ 
+}
+.font-fam{
+    font-family: "Lexend Deca" !important;
+
+}

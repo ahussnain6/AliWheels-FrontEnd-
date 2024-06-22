@@ -1,0 +1,370 @@
+@media screen and (width > 900px) {
+    .home{
+        font-family: "Lexend Deca", "sans-serif";
+        width: 98.7vw;
+        height: 80vh;
+        object-fit: contain;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .op{
+        background-color: rgba(0,0,0,0.5);
+        text-align: center;
+        color: white;
+        padding:.1vh 1vh;
+        border-radius: .7vh;
+        font-size: 2.4vw;
+        font-family: "Lexend Deca", "sans-serif";
+        width: 39vw;
+        border: 1px solid white;
+    }
+    .name{
+        font-size: 1.7vw;
+    }
+    .op:hover{
+        border: 2px solid black;
+        cursor: pointer;
+        transform: scale(1.01);
+        background-color: white;
+        color: black;
+    }
+    .k{
+        font-family: "Lexend Deca", "sans-serif";
+      margin: 3vh 0vh;
+        text-align: center;
+        font-size: 3vw;
+    
+    }
+    .button{
+      background-color: white;
+        /* background-color: black; */
+        color: black;
+        border: 2px solid black;
+        padding: .5vw 2.5vw;
+        border-radius:1.2vw;
+        font-size: 1.8vw;
+        font-family: "Lexend Deca", "sans-serif";
+       }
+       .button:hover{
+        background-color: black;
+        color: white;
+        font-family: "Lexend Deca", "sans-serif";
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+       }
+      .cart{
+          margin-top: 1vh;
+          background-color: black;
+          color: white;
+          padding: .9vh 1.5vh 2vh;
+          font-size: 1.8vw;
+          border-left: 2px solid black;
+          border-right: 2px solid black;
+          font-family: "Lexend Deca", "sans-serif";
+      }
+      
+      .item{
+        font-family: "Lexend Deca", "sans-serif";
+          padding: 2vh;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          flex-direction: row;
+          /* border: 2px solid red; */
+          gap: 2vh;
+          width: 100%;
+      }
+      .img{
+          height: 71.5%;
+          width: 100%;
+           object-fit: cover;
+      }
+      .car{
+        font-family: "Lexend Deca", "sans-serif";
+          margin: 1vh;
+        width: 22vw;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        height: 50vh;
+        /* background-color: aqua; */
+          /* padding: .4vh; */
+          border-radius: 1vh;
+          overflow: hidden;
+      }
+      .car:hover{
+          transform: scale(1.07,1.07);
+      }
+
+}
+@media screen and (680px < width <= 900px) {
+    .home{
+        width: 100vw;
+        height: 80vh;
+        object-fit: contain;
+        font-family: "Lexend Deca", "sans-serif";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .op{
+        background-color: rgba(0,0,0,0.5);
+        text-align: center;
+        color: white;
+        padding:.1vh 1vh;
+        border-radius: .7vh;
+        font-size: 2.4vw;
+        width: 39vw;
+        font-family: "Lexend Deca", "sans-serif";
+        border: 1px solid white;
+    }
+    .op:hover{
+        border: 2px solid black;
+        cursor: pointer;
+        transform: scale(1.01);
+        background-color: white;
+        color: black;
+    }
+    .k{
+      margin: 3vh 0vh;
+      font-family: "Lexend Deca", "sans-serif";
+        text-align: center;
+        font-size: 3vw;
+    
+    }
+    .button{
+        font-family: "Lexend Deca", "sans-serif";
+        background-color: color;
+        color: black;
+        padding: 1.1vw 2.6vw;
+        border-radius:1.5vw;
+        border: 2px solid black;
+        font-size: 2vw;
+       }
+       .button:hover{
+        background-color: black;
+        color: white;
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+       }
+      .cart{
+          margin-top: 1vh;
+          background-color: black;
+          color: white;
+          font-size: 1.89vw;
+          padding: 1.5vh;
+          font-family: "Lexend Deca", "sans-serif";
+      }
+      .name{
+        font-size: 1.65vw;
+      }
+      .item{
+          padding: 2vh;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          flex-direction: row;
+          /* border: 2px solid red; */
+          gap: 2vh;
+          font-family: "Lexend Deca", "sans-serif";
+          width: 100%;
+      }
+      .img{
+          height: 71.5%;
+          width: 100%;
+      }
+      .car{
+          /* margin: 1vh; */
+        width: 22vw;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        height: 45vh;
+          /* padding: .4vh; */
+          border-radius: 1vh;
+      }
+      .car:hover{
+          transform: scale(1.07,1.07);
+      }}
+
+@media screen and (470px <= width <= 680px) {
+    .home{
+        width: 100vw;
+        height: 80vh;
+        object-fit: contain;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .op{
+        background-color: rgba(0,0,0,0.5);
+        text-align: center;
+        color: white;
+        padding:.7vh 1vh;
+        border-radius: .4vh;
+        font-size: 2.56vw;
+        width: 39vw;
+        border: 1px solid white;
+    }
+    .op:hover{
+        border: 2px solid black;
+        cursor: pointer;
+        transform: scale(1.01);
+        background-color: white;
+        color: black;
+    }
+    .k{
+      margin: 3vh 0vh;
+        text-align: center;
+        font-size: 3vw;}
+    .button{
+      border: 2px solid black;
+        background-color: white;
+        color: black;
+        padding: 1vw 2.8vw;
+        font-family: "Lexend Deca", "sans-serif";
+        border-radius:1.2vw;
+        font-size: 2vw;}
+        .button:hover{
+          background-color: black;
+          color: white;
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;}
+      .cart{
+          margin-top: 1vh;
+          background-color: black;
+          color: white;
+          padding: 1.5vh;
+          font-size: 1.9vw;
+      }
+      .name{
+        font-size: 1.9vw;
+      }
+      .item{
+        /* border: 2px solid black; */
+          padding: .3vh .5vh;
+          display: grid;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          gap: 2vh;
+          width: 100%;}
+      .img{
+          height: 71.5%;
+          width: 100%;}
+      .car{
+        width: 30vw;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        height: 37vh;
+          border-radius: 1vh;}
+      }
+      @media screen and (width < 470px) {
+        .home{
+            width: 100vw;
+            height: 80vh;
+            object-fit: contain;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .op{
+            background-color: rgba(0,0,0,0.5);
+            text-align: center;
+            color: white;
+            padding:.7vh 1vh;
+            border-radius: .4vh;
+            font-size: 2.56vw;
+            width: 39vw;
+            border: 1px solid white;
+        }
+        .op:hover{
+            border: 2px solid black;
+            cursor: pointer;
+            transform: scale(1.01);
+            background-color: white;
+            color: black;
+        }
+        .k{
+          font-family: "Lexend Deca", "sans-serif";
+          margin: 3vh 0vh;
+            text-align: center;
+            font-size: 3vw;}
+        .button{
+            color: black;
+            background-color: transparent;
+            font-family: "Lexend Deca", "sans-serif";
+            border: 2px solid black;
+            padding: 1vw 3.3vw;
+            border-radius:1.1vw;
+            font-size: 2.5vw;}
+           .button:hover{
+            background-color: black;
+            color: white;
+              box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;}
+          .cart{
+              margin-top: 1vh;
+              background-color: black;
+              color: white;
+              padding: 1.5vh;
+              letter-spacing: .1vh;
+              font-size: 2.9vw;
+          }
+          
+      .name{
+        padding-top: 1vh;
+        font-weight: 600;
+        font-size: 3.4vw;
+      }
+          .item{
+            /* border: 2px solid black; */
+              padding: .3vh .5vh;
+              display: grid;
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+              align-items: center;
+              gap: 2vh;
+              width: 100%;}
+          .img{
+              height: 71.5%;
+              width: 100%;}
+          .car{
+            width: 45vw;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            height: 37vh;
+              border-radius: 1vh;}
+          }
+
+
+          .load{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .bgfull{
+            background-size: 100% 100%;
+          }
+          .button{
+            margin:0vh .3vh;
+          }
+          .border{
+            border: 2px solid black;
+          }
+          .thin{
+            display:flex;
+            justify-content:center;
+            flex-direction:column;
+            font-family: "Lexend Deca , sanserif"
+          }
+          .it1{
+        text-align:center;
+        font-family: "Lexend Deca , sanserif";
+          }
+          .link{
+            color:white;
+            text-decoration:none;
+            font-family:"Lexend Deca , sanserif";
+              
+          }
+          .kin{
+            display:flex;
+            justify-content:center;
+            margin-bottom:1vh;
+          }

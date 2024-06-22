@@ -1,0 +1,31 @@
+.cen{
+    display:"flex";
+    justify-content:"center";
+    align-items:"center";
+        flex-direction:column;
+      background-image:
+      url("https://preview.colorlib.com/theme/bootstrap/login-form-20/images/bg.jpg.webp");
+      background-size: 100% 100%;
+      width:99.9vw;
+      height:89vh;
+    
+}
+.space{
+    border:2px solid black;
+    width:60vw;
+    height:63vh;
+        display:flex;
+        justify-content:"center";
+        align-items:"center";
+        flex-direction:column;
+        border-radius:1.7vh;
+        background-color:rgba(0,0,0,0.4)
+    
+}
+.email{
+    text-align:center;
+    font-size:3.1vw;
+  font-family: "Lexend Deca";
+    color: white;
+    margin-bottom: 3vh;
+}

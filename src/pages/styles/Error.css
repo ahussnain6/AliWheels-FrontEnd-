@@ -1,0 +1,9 @@
+.content{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    gap: 3vh;
+}
